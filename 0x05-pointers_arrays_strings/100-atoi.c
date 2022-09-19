@@ -6,11 +6,11 @@
  *
  * Return: the converted int
  */
-int _atoi(cahr *s)
+int _atoi(char *s)
 {
 	int sign = 1;
 
-	insigned int num = 0i;
+	unsigned int num = 0i;
 
 	do {
 		if (*s == '-')
