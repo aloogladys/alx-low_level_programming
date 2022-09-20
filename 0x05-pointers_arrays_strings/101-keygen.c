@@ -12,14 +12,15 @@
 int main(void)
 {
 	char c;
-	int x;
-
+	int x
 	srand(time(0));
 
 	while (x <= 2645)
 	{
 		c = rand() %
+
 			x += c;
+
 		putchar(c);
 
 
