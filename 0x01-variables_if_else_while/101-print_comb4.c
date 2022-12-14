@@ -1,4 +1,4 @@
-#/\s\+$///\s\+$///\s\+$//enclude <stdio.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Print all possible different combinations of 3 digits.
