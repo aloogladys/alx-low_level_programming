@@ -1,30 +1,24 @@
-#include "main.h"
-
 #include <stdio.h>
 
 
 
 /**
 
- * main - print the name of the file followed by a new line
+ * main - Prints the program name, followed by a new line.
 
- * @argc: argument count
+ * @argc: The number of arguments supplied to the program.
 
- * @argv: arguments passed to main as an array of strings
+ * @argv: An array of pointers to the arguments.
 
- * Return: 0
+ *
+
+ * Return: Always o.
 
  */
 
-
-
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 
 {
-
-	(void) argc;
-
-
 
 	printf("%s\n", argv[0]);
 
