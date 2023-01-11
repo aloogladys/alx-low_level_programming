@@ -1,3 +1,8 @@
+/*
+ * File: 1-args.c  
+ */
+
+
 #include "main.h"
 
 #include <stdio.h>
@@ -5,15 +10,10 @@
 
 
 /**
-
  * main - print the num of args you passed to it
-
  * @argc: argument count
-
  * @argv: argument vector, array of strings
-
  * Return: 0
-
  */
 
 
