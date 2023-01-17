@@ -1,3 +1,1 @@
-0x09. C - argc && argv
-
-
+I learnt about Statis Libraries
