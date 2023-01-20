@@ -1,12 +1,17 @@
 #include "3-calc.h"
-#include <stdio.h>
-#include <stdlib.h>
+
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 
 /**
- * op_add - addition operator
- * @a: first int
- * @b: second int
- * Return: sum of 2 numbers
+ * op_add - Returns the sum of two numbers.
+ * @a: The first number.
+ * @b: The second number.
+ *
+ * Return: The sum of a and b.
  */
 int op_add(int a, int b)
 {
@@ -14,10 +19,11 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - subtraction operator
- * @a: first in
- * @b: second int
- * Return: difference of 2 numbers
+ * op_sub - Returns the difference of two numbers.
+ * @a: The first number.
+ * @b: The second number.
+ *
+ * Return: The difference of a and b.
  */
 int op_sub(int a, int b)
 {
@@ -25,10 +31,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - product of 2 numbers
- * @a: first int
- * @b: second int
- * Return: product of the numbers
+ * op_mul - Returns the product of two numbers.
+ * @a: The first number.
+ * @b: The second number.
+ *
+ * Return: The product of a and b.
  */
 int op_mul(int a, int b)
 {
@@ -36,33 +43,26 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - division of 2 numbers
- * @a: first int
- * @b: second int
- * Return: result of the division of the numbers
+ * op_div - Returns the division of two numbers.
+ * @a: The first number.
+ * @b: The second number.
+ *
+ * Return: The quotient of a and b.
  */
 int op_div(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a / b);
 }
 
 /**
- * op_mod - get remainder of the division of 2 numbers
- * @a: first int
- * @b: second int
- * Return: remainder of division of the numbers
+ * op_mod - Returns the remainder of the division of two numbers.
+ * @a: The first number.
+ * @b: The second number.
+ *
+ * Return: The remainder of the division of a by b.
  */
 int op_mod(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a % b);
 }
+
